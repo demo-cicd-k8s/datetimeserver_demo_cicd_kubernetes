@@ -31,7 +31,7 @@ public class SampleDemoMain {
                     content = "<a href=\"https://imgflip.com/i/3zrrvy\"><img src=\"https://i.imgflip.com/3zrrvy.jpg\" title=\"made at imgflip.com\"/></a>";
                     numberOfRequests = 0;
                 } else {
-                    content = String.format("<p>Hello! The date and time now is: %s.</p>",formatter.format(date));
+                    content = String.format("<h2>Hello! The date and time now is: %s.</h2>",formatter.format(date));
                     numberOfRequests++;
                 }
             }
@@ -45,7 +45,7 @@ public class SampleDemoMain {
                 "\n" +
                 "\t<body>\n" +
                 "\t\t%s\n" +
-                "\t\t<p>version: %d</p>\n" +
+                "\t\t<h2>version: %d</h2>\n" +
                 "\t</body>\n" +
                 "</html>", content, versionNumber);
 
