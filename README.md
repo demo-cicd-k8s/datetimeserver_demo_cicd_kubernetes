@@ -1,8 +1,8 @@
 # datetimeserver_demo_cicd_kubernetes
-   
+
 This is a sample project for demo purposes.    
 
-1. Start minikube: minukube start --driver=virtualbox
+1. Start minikube: minukube start --driver=virtualbox 
 1. Show info with kubectl: kubectl get nodes, kubectl get pods (nothing)
 <!-- 1. Show minikube vm in virtualbox    -->
 1. Start Jenkins: in our case: java -jar jenkins.war
@@ -19,7 +19,7 @@ This is a sample project for demo purposes.
 1. Change the version again. Push to github.
 1. <!-- show auto refresh--> Refresh the page continously and note zero down time deployment, Show info with kubectl: kubectl get nodes, kubectl get pods (2 pods). <!-- split screen with watch: browser + terminal with: kubectl get nodes --watch -->
 1. Show Dockerhub
- 
+
 
 
 
