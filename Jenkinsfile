@@ -1,7 +1,7 @@
 pipeline {
    agent any
    environment {
-       registry = "nouralhuda95/demo-cicd-k8s"
+       registry = "nouralhuda95/demo-cicd-k8s" //change nouralhuda95 to your own Docker Hub ID
    }
    options {
        skipStagesAfterUnstable()
