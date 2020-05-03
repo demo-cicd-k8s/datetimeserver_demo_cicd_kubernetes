@@ -15,7 +15,7 @@ import org.eclipse.jetty.server.handler.ContextHandlerCollection;
 
 public class SampleDemoMain {
 
-    private static int versionNumber = 1;
+    private static int versionNumber = 2;
     private static int numberOfRequests = 0;
     private static Object lock = new Object();
 
