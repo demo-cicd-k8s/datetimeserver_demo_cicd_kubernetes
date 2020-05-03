@@ -1,6 +1,6 @@
 # datetimeserver_demo_cicd_kubernetes
 
-This is a sample project for demo purposes.     
+This is a sample project for demo purposes.  
 
 1. Start minikube: minukube start --driver=virtualbox
 1. Show info with kubectl: kubectl get nodes, kubectl get pods (nothing)
