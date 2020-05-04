@@ -23,7 +23,7 @@ This is a sample project that is used to do the demo on CI/CD pipeline using Jen
 Following are the terminal commands that were used in the demo:
 
 1. Create a K8s cluster by starting `minikube`: `minukube start --driver=virtualbox`
-1. Show info with `kubectl`: `kubectl get nodes, kubectl get pods (nothing)`
+1. Show info with `kubectl`: `kubectl get nodes`, `kubectl get pods`
 1. Start Jenkins: in our case, ifthe stand-alone WAR file is downloaded, run `java -jar jenkins.war` fromt the directory that has the `jenkins.war`.
 1. Start ngrok: First install ngrok and authenticate yourself following the instructions on ngrok website. Then run: ./ngrok http 8080
 1. Add a new `Pipeline` by clicking on `New Item` in `Jenkins` and adding the link to your Github fork repo and following the steps as done in the demo.
