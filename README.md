@@ -31,6 +31,6 @@ Following are the terminal commands that were used in the demo:
 1. Run `minikube service node-service-example` to make minikube open your default browser and show you that the website is running on K8s node.
 1. Change the `versionNumber` variable in the java file `SampleDemoMain.java`. and push to github. This will deploy two pods on the K8s cluster that was created.
 1. Run `minikube service node-service-example` to make minikube open your default browser and show you that the website is running on K8s node.
-1. Refresh the webpage continuously and note zero down time deployment.
+1. Refresh the webpage continuously and note zero-downtime deployment.
 1. You can also show info about the k8s cluster by running `kubectl get nodes` and `kubectl get pods`.
 1. Open Docker hub and you will see that two images were created.
